@@ -1,0 +1,3 @@
+[submodule "temper_mqtt/libs/temper"]
+	path = temper_mqtt/libs/temper
+	url = https://github.com/urwen/temper
