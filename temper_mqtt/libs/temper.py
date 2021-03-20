@@ -343,6 +343,8 @@ class Temper(object):
                 results.append(info)
                 continue
             usbread = USBRead(info['devices'][-1], verbose)
+            print("info={}".format(info))
+            print("usbread={}".format(usbread.read()))
             results.append({**info, **usbread.read()})
         return results
 
